@@ -30,6 +30,9 @@ DM EndRound - Version 2.5
 ## client cfg:
 (copy autoexec.cfg to C:\Program Files (x86)\Steam\SteamApps\common\Counter-Strike Source\cstrike\cfg)
 
+## map DM spawnpoints:
+(copy de_eVision_Office_v1.txt to C:\steamcmd\cssdm_server\cstrike\cfg\cssdm\spawns\cstrike)
+
 
 ## Starting the server: 
 cd ./cssdm_server/
@@ -39,9 +42,10 @@ you can now join the server by browing LAN servers
 
 ## Updating the map
 If you'd like to update the map you need to
-- Copy the map to the server (C:\steamcmd\csgo_dm2\cstrike\maps)
+- Copy the map to the server (C:\steamcmd\cssdm_server\cstrike\maps)
 - Copy the map to the client (C:\Program Files (x86)\Steam\SteamApps\common\Counter-Strike Source\cstrike\maps)
 - Update mapcycle.txt with the new mapname
+- Rename de_eVision_Office_v1.txt to new mapname (layout must be identical) (C:\steamcmd\cssdm_server\cstrike\cfg\cssdm\spawns\cstrike)
 - Update the server launch command
 
 ## Restarting the map
