@@ -47,3 +47,4 @@ If you'd like to update the map you need to
 - When the player is ready, hit F6 to start a 3second countdown timer
 - Scores will need to be kept track of manually 
 - Each round lasts 3 minutes but is configurable in server.cfg under `dm_roundtime`
+- For best performance (at least on the laptop I set up on) you should set all GFX options to the lowest possible setting
