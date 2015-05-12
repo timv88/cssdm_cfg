@@ -52,6 +52,6 @@ If you'd like to update the map you need to
 Go to console (ingame) and type `rcon changelevel_next`
 
 ## Notes:
-When the player is ready, hit F6 to start a 3second countdown timer
-Scores will need to be kept track of manually 
-Each round lasts 3 minutes but is configurable in server.cfg under `dm_roundtime`
+- When the player is ready, hit F6 to start a 3second countdown timer
+- Scores will need to be kept track of manually 
+- Each round lasts 3 minutes but is configurable in server.cfg under `dm_roundtime`
