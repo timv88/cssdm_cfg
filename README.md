@@ -34,6 +34,9 @@ DM EndRound - Version 2.5
 - copy de_eVision_Office_v1.txt to C:\steamcmd\cssdm_server\cstrike\cfg\cssdm\spawns\cstrike
 
 
+## Add map to server
+- copy de_eVision_Office_v1.bsp to C:\steamcmd\cssdm_server\cstrike\maps
+
 ## Starting the server: 
 - `cd ./cssdm_server/`
 - `./srcds.exe -console -game "cstrike" -secure +map de_eVision_Office_v1 +log on +maxplayers 16 -port 27015 +exec server.cfg`
