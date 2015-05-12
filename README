@@ -36,6 +36,17 @@ cd ./cssdm_server/
 ./srcds.exe -console -game "cstrike" -secure +map de_eVision_Office_v1 +log on +maxplayers 16 -port 27015 +exec server.cfg
 you can now join the server by browing LAN servers
 
+
+## Updating the map
+If you'd like to update the map you need to
+- Copy the map to the server (C:\steamcmd\csgo_dm2\cstrike\maps)
+- Copy the map to the client (C:\Program Files (x86)\Steam\SteamApps\common\Counter-Strike Source\cstrike\maps)
+- Update mapcycle.txt with the new mapname
+- Update the server launch command
+
+## Restarting the map
+Go to console (ingame) and type `rcon changelevel_next`
+
 ## Notes:
 When the player is ready, hit F6 to start a 3second countdown timer
 Scores will need to be kept track of manually 
