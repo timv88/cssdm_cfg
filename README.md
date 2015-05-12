@@ -1,9 +1,9 @@
 # Instructions for Windows
-(create c:/steamcmd)
-(extract  https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip)
+- (create c:/steamcmd)
+- (extract  https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip)
 
-cd c:/steamcmd
-./steamcmd.exe +login anonymous +force_install_dir cssdm_server +app_update 232330 validate +quit
+- `cd c:/steamcmd`
+- `./steamcmd.exe +login anonymous +force_install_dir cssdm_server +app_update 232330 validate +quit`
 
 
 ## Server plugins
@@ -24,19 +24,19 @@ DM EndRound - Version 2.5
 
 
 ## Server cfg:
-(copy server.cfg to c:\steamcmd\cssdm_server\cstrike\cfg)
-(copy cssdm.cfg to c:\steamcmd\cssdm_server\cstrike\cfg\cssdm)
+- copy server.cfg to c:\steamcmd\cssdm_server\cstrike\cfg
+- copy cssdm.cfg to c:\steamcmd\cssdm_server\cstrike\cfg\cssdm
 
 ## client cfg:
-(copy autoexec.cfg to C:\Program Files (x86)\Steam\SteamApps\common\Counter-Strike Source\cstrike\cfg)
+- copy autoexec.cfg to C:\Program Files (x86)\Steam\SteamApps\common\Counter-Strike Source\cstrike\cfg
 
 ## map DM spawnpoints:
-(copy de_eVision_Office_v1.txt to C:\steamcmd\cssdm_server\cstrike\cfg\cssdm\spawns\cstrike)
+- copy de_eVision_Office_v1.txt to C:\steamcmd\cssdm_server\cstrike\cfg\cssdm\spawns\cstrike
 
 
 ## Starting the server: 
-cd ./cssdm_server/
-./srcds.exe -console -game "cstrike" -secure +map de_eVision_Office_v1 +log on +maxplayers 16 -port 27015 +exec server.cfg
+- `cd ./cssdm_server/`
+- `./srcds.exe -console -game "cstrike" -secure +map de_eVision_Office_v1 +log on +maxplayers 16 -port 27015 +exec server.cfg`
 you can now join the server by browing LAN servers
 
 
@@ -49,7 +49,7 @@ If you'd like to update the map you need to
 - Update the server launch command
 
 ## Restarting the map
-Go to console (ingame) and type `rcon changelevel_next`
+- Go to console (ingame) and type `rcon changelevel_next`
 
 ## Notes:
 - When the player is ready, hit F6 to start a 3second countdown timer
